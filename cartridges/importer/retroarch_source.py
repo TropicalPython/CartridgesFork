@@ -166,6 +166,7 @@ class RetroarchSource(Source):
                     # / "Packages"
                     # / "1e4cf179-f3c2-404f-b9f3-cb2070a5aad8_8ngdn9a6dx1ma"
                     # / "LocalState",
+                    # TODO: Decide if Windows really deserves it.
                 ],
                 paths={
                     "retroarch.cfg": LocationSubPath("retroarch.cfg"),
