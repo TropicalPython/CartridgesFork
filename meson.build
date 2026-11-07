@@ -28,11 +28,11 @@ libexecdir = join_paths(get_option('prefix'), get_option('libexecdir'))
 
 profile = get_option('profile')
 if profile == 'development'
-  app_id = 'page.kramo.Cartridges.Devel'
-  prefix = '/page/kramo/Cartridges/Devel'
+  app_id = 'com.github.TropicalPython.CartridgesFork.Devel'
+  prefix = '/com/github/TropicalPython/CartridgesFork/Devel'
 elif profile == 'release'
-  app_id = 'page.kramo.Cartridges'
-  prefix = '/page/kramo/Cartridges'
+  app_id = 'com.github.TropicalPython.CartridgesFork'
+  prefix = '/com/github/TropicalPython/CartridgesFork'
 endif
 
 conf = configuration_data()

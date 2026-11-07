@@ -51,6 +51,7 @@ class FlatpakSourceIterable(SourceIterable):
                 "hu.kramo.Cartridges.Devel",
                 "page.kramo.Cartridges",
                 "page.kramo.Cartridges.Devel",
+                "com.github.seuusuario.CartridgesFork"
             }
             if shared.schema.get_boolean("flatpak-import-launchers")
             else {
@@ -64,6 +65,7 @@ class FlatpakSourceIterable(SourceIterable):
                 "com.usebottles.Bottles",
                 "io.itch.itch",
                 "org.libretro.RetroArch",
+                "com.github.seuusuario.CartridgesFork"
             }
         )
 

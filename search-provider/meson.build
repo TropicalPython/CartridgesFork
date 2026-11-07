@@ -11,14 +11,14 @@ configure_file(
 )
 
 configure_file(
-  input: 'page.kramo.Cartridges.SearchProvider.service.in',
+  input: 'com.github.TropicalPython.CartridgesFork.SearchProvider.service.in',
   output: app_id + '.SearchProvider.service',
   configuration: conf,
   install_dir: service_dir,
 )
 
 configure_file(
-  input: 'page.kramo.Cartridges.SearchProvider.ini',
+  input: 'com.github.TropicalPython.CartridgesFork.SearchProvider.ini',
   output: app_id + '.SearchProvider.ini',
   configuration: conf,
   install_dir: serarch_provider_dir,
